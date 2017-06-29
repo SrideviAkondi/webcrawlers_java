@@ -1,0 +1,48 @@
+.highlight
+{
+background-color:yellow;
+}
+
+#rs{
+    padding:25px;
+}
+
+.main{
+    padding: 25px;
+    text-align: center;
+}
+
+a{
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+#link{
+    color:green;
+    font-size: 1.2em;
+}
+
+.innerText{
+    text-align: justify;
+    font-size: 1em;
+}
+
+#search{
+    text-align: center;
+}
+
+#txtURL{
+    margin-left: 40px;
+}
+#txtKeyword{
+    margin-left: 10px;
+}
+
+#urlDiv{
+    display: inline-block;
+    margin-left: -0px;
+}
+.row{
+
+    margin-bottom: 10px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://algorithmia.com/v1/clients/js/algorithmia-0.2.0.js" type="text/javascript"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Web Crawler</title>
+</head>
+
+<body>
+    <div class="main">
+        <h2>Web Crawler</h2>
+        <form>
+            <div class="row">
+                <div id="urlDiv">Enter any URL:</div><input type="text" name="url" id="txtURL" value="" /> <br>
+            </div>
+            <div class="row">
+                Enter any Keyword:<input type="text" name="keyword" id="txtKeyword" value="" /> <br>
+            </div>
+            <button type="submit">Search</button>
+
+        </form>
+    </div>
+    <br>
+    <div id="rs">
+    </div>
+</body>
+
+</html>
