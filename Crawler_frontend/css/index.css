@@ -1,0 +1,108 @@
+body{
+    background-color: #EEEEEE !important;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+.container> div.row> div.col-md-12 {
+    padding:4%;
+}
+
+.container> div.row> div.col-md-12> h2{
+       font-family: Roboto;
+    font-size: 45px;
+    margin-top: -20px;
+    margin-bottom: 60px;
+}
+
+.container> div.row> div.col-md-12{
+    font-family: Roboto;
+    font-size: 1.3em;
+}
+
+
+.highlight
+{
+background-color:yellow;
+}
+
+#rs{
+    padding:25px;
+}
+#main{
+    padding: 25px;
+    text-align: center;
+}
+
+a{
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+#list> a:hover {
+text-decoration: none;
+}
+
+#link{
+    color:green;
+    font-size: 1.0em;
+}
+
+.innerText{
+    text-align: justify;
+    font-size: 1em;
+}
+
+#search{
+    text-align: center;
+    margin-top: -9%;
+}
+
+
+#txtURL{
+     width: 50%;
+    border-radius: 1.5rem;
+    margin-left: 27%;
+    margin-top: 1%;
+    font-family: Roboto;
+}
+
+#txtKeyword{
+    width: 50%;
+    border-radius: 1.5rem;
+    margin-left: 27%;
+    margin-top: 1%;
+    font-family: Roboto;
+}
+
+#urlDiv{
+    display: inline-block;
+    margin-left: -0px;
+}
+.row1{
+
+    margin-bottom: 10px;
+}
+
+#img1{
+    display: none;
+    margin-left: 47%;
+    margin-top:5%;
+}
+
+
+#res{
+    display:none;
+    margin-top: -4%;
+}
+
+
+#list{
+    box-shadow:  5px 5px 5px #888888;
+    background-color: #fff;
+    padding: 2%;
+    margin-bottom: 3%;
+}
