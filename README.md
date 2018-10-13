@@ -1,4 +1,4 @@
-# Web Crawlers Implementation in Java
+# Web Crawler- An Implementation in Java
 
 This project involves the development of a small scale web crawler to gather information from the desired website. This web crawler stores URLs of every page browsed and of every URLs found inside. The gathered information is then converted to a Lucene document and stored in the index. The time taken to search the index is very short when compared with how long it takes for a relational database to process a query.
 
